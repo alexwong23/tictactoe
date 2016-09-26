@@ -1,0 +1,95 @@
+header{
+  background-color: rgb(57, 133, 66);
+  border-radius: 10px;
+}
+body,a{
+  background-color: rgb(129, 201, 138);
+  color:white;
+  text-decoration: none;
+  text-align: center;
+}
+h1{
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+h2{
+  margin-top: 0px;
+}
+.box img{
+  height: 100%;
+  width: 100%;
+}
+.board{
+  margin: 0 auto;
+  padding-bottom: 20px;
+  width: 300px;
+  height: 300px;
+}
+.box{
+  display: inline-block;
+  float: left;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  font-size: 100px;
+  box-sizing: border-box;
+}
+.box.grey{
+  background-color: grey;
+}
+.layout .reset{
+  clear: both;
+  padding: 15px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(201, 65, 41);
+}
+.layout .reset:hover{
+  background-color: rgb(76, 219, 58);
+}
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+    display: none;
+}
+.alert a{
+  background-color: #f44336; /* Red */
+  text-decoration: underline;
+  font-size: 20px;
+}
+.winner {
+    padding: 30px;
+    border-radius: 10px;
+    top: 30%;
+    left: 35%;
+    background-color: #1b7ba4; /* Blue */
+    color: white;
+    position: fixed;
+    display: none;
+}
+.winner p{
+  background-color: #1b7ba4; /* Blue */
+  font-size: 30px;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}
